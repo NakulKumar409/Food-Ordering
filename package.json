@@ -1,13 +1,14 @@
 {
-  "name": "food_menu",
-  "private": true,
-  "version": "0.0.0",
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "A modern food ordering app built with React, Vite, and TailwindCSS.",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -40,9 +41,14 @@
     "globals": "^15.14.0",
     "vite": "^6.1.0"
   },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Nakul Kumar",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "vite",
+    "food-ordering",
+    "tailwindcss",
+    "stripe",
+    "razorpay"
+  ]
 }
